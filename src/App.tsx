@@ -476,13 +476,13 @@ const Footer = () => {
   return (
     <footer className="py-12 px-6 border-t border-white/5 bg-black">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 text-center md:text-left">
-        <div className="text-2xl font-serif font-bold tracking-widest uppercase">Zenith</div>
+        <div className="text-2xl font-serif font-bold tracking-widest uppercase">Gourmet Lin</div>
         <div className="text-[10px] uppercase tracking-[0.3em] text-white/30">
-          © 2024 Zenith Luxury Dining. All Rights Reserved.
+          © {new Date().getFullYear()} Gourmet Lin. Alle Rechte vorbehalten.
         </div>
         <div className="flex space-x-8 text-[10px] uppercase tracking-widest text-white/50">
-          <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-          <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+          <a href="#" className="hover:text-white transition-colors">Impressum</a>
+          <a href="#" className="hover:text-white transition-colors">Datenschutzerklärung</a>
         </div>
       </div>
     </footer>
