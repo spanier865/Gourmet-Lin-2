@@ -305,6 +305,49 @@ const Atmosphere = () => {
   );
 };
 
+const BuffetGallery = () => {
+  const images = [
+    "https://static.wixstatic.com/media/17c0b7_3b22038312924bc3a5c9ce4944c302a9~mv2.jpg",
+    "https://static.wixstatic.com/media/17c0b7_cc73a8233c40423b87105d916ec1bbf7~mv2.jpg",
+    "https://static.wixstatic.com/media/17c0b7_3e42356f12bc43f7af5829214b2841d1~mv2.jpg",
+    "https://static.wixstatic.com/media/17c0b7_401c1683398c4faf8f57990736871f38~mv2.jpg",
+    "https://static.wixstatic.com/media/17c0b7_e79606d8499b44b0b4a97c48162e5482~mv2.jpg"
+  ];
+
+  return (
+    <section className="py-24 bg-[#080808] overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 mb-12">
+        <div className="flex items-center gap-4 mb-4">
+          <span className="h-[1px] w-8 bg-accent"></span>
+          <span className="text-[10px] uppercase tracking-[0.6em] font-bold text-accent">Impressionen</span>
+        </div>
+        <h2 className="text-4xl md:text-5xl font-serif text-white">Unsere Buffet Galerie</h2>
+      </div>
+      
+      {/* Slider Container */}
+      <div className="flex overflow-x-auto snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] pb-8 px-6 md:px-12 gap-6">
+        {images.map((img, i) => (
+          <motion.div 
+            key={i}
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: i * 0.1 }}
+            className="snap-center shrink-0 w-[280px] md:w-[400px] aspect-square rounded-2xl overflow-hidden border border-white/10"
+          >
+            <img 
+              src={img} 
+              alt={`Buffet Impression ${i + 1}`} 
+              className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
+              referrerPolicy="no-referrer"
+            />
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
 const CustomerReviews = () => {
   const reviews = [
     { 
@@ -499,6 +542,7 @@ export default function App() {
       <USPs />
       <BuffetCards />
       <Atmosphere />
+      <BuffetGallery />
       <CustomerReviews />
       <ContactMap />
       <Footer />
