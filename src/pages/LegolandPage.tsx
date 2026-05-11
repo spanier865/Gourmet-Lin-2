@@ -13,16 +13,6 @@ const LegolandPage = () => {
     <div className="bg-[#050505] text-white min-h-screen">
       {/* Hero Section */}
       <section className="relative pt-32 pb-24 px-6 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1920" 
-            alt="Delicious Asian Food" 
-            className="w-full h-full object-cover opacity-30"
-            referrerPolicy="no-referrer"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-black/50 to-black"></div>
-        </div>
-
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -56,19 +46,19 @@ const LegolandPage = () => {
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 p-6 bg-white/5 rounded-3xl border border-white/10 backdrop-blur-md">
                 <div className="text-center">
                   <Car className="w-6 h-6 text-accent mx-auto mb-2" />
-                  <span className="text-[10px] uppercase tracking-wider text-white/50 block">~10 Min.</span>
+                  <span className="text-[9px] md:text-[10px] uppercase tracking-wider text-white/50 block leading-tight">~10 Min. Anfahrt</span>
                 </div>
                 <div className="text-center">
                   <Users className="w-6 h-6 text-accent mx-auto mb-2" />
-                  <span className="text-[10px] uppercase tracking-wider text-white/50 block">Familien</span>
+                  <span className="text-[9px] md:text-[10px] uppercase tracking-wider text-white/50 block leading-tight">Familienfreundlich</span>
                 </div>
                 <div className="text-center">
                   <Soup className="w-6 h-6 text-accent mx-auto mb-2" />
-                  <span className="text-[10px] uppercase tracking-wider text-white/50 block">Buffet</span>
+                  <span className="text-[9px] md:text-[10px] uppercase tracking-wider text-white/50 block leading-tight">All-You-Can-Eat Buffet</span>
                 </div>
                 <div className="text-center">
                   <Clock className="w-6 h-6 text-accent mx-auto mb-2" />
-                  <span className="text-[10px] uppercase tracking-wider text-white/50 block">Täglich</span>
+                  <span className="text-[9px] md:text-[10px] uppercase tracking-wider text-white/50 block leading-tight">Täglich geöffnet</span>
                 </div>
               </div>
             </motion.div>
@@ -81,8 +71,8 @@ const LegolandPage = () => {
             >
               <div className="absolute inset-0 bg-accent/20 rounded-full blur-[100px] animate-pulse"></div>
               <img 
-                src="https://images.unsplash.com/photo-1512058560366-cd2427ff56f3?auto=format&fit=crop&q=80&w=1200" 
-                alt="Asian Spread" 
+                src="https://static.wixstatic.com/media/17c0b7_7857f4fd52e04f41acac2f288d7c14e9~mv2.jpg" 
+                alt="Legoland Special" 
                 className="w-full h-full object-cover rounded-[60px] shadow-2xl relative z-10"
                 referrerPolicy="no-referrer"
               />
@@ -482,7 +472,7 @@ const LegolandPage = () => {
                       <p className="text-white/80 text-lg">+49 8221 206 0910</p>
                       <p className="text-white/60">info@gourmetlin-gz.com</p>
                     </div>
-                    <a href="tel:+4982212060910" className="inline-block w-full text-center px-8 py-4 bg-accent text-white rounded-xl text-[11px] uppercase tracking-[0.3em] font-bold hover:bg-white hover:text-black transition-all duration-500 shadow-lg shadow-accent/10">
+                    <a href="tel:+4982212060910" className="inline-block w-full text-center px-8 py-4 bg-accent text-white rounded-full text-[11px] uppercase tracking-[0.3em] font-bold hover:bg-white hover:text-black transition-all duration-500 shadow-lg shadow-accent/10">
                       Tisch reservieren
                     </a>
                   </div>

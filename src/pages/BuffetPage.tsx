@@ -245,7 +245,7 @@ const BuffetContent = () => {
     {
       name: "Desserts",
       desc: "Frische Früchte, asiatische Süßspeisen und klassische Desserts als süßer Abschluss.",
-      img: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600"
+      img: "https://static.wixstatic.com/media/17c0b7_77e2e19b4bf346cda7151276aac1b097~mv2.jpg"
     }
   ];
 

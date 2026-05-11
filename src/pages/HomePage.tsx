@@ -414,7 +414,7 @@ const ContactMap = () => {
                     <p className="text-white/80 text-lg">+49 8221 206 0910</p>
                     <p className="text-white/60">info@gourmetlin-gz.com</p>
                   </div>
-                  <a href="tel:+4982212060910" className="inline-block w-full text-center px-8 py-4 bg-accent text-white rounded-xl text-[11px] uppercase tracking-[0.3em] font-bold hover:bg-white hover:text-black transition-all duration-500 shadow-lg shadow-accent/10">
+                  <a href="tel:+4982212060910" className="inline-block w-full text-center px-8 py-4 bg-accent text-white rounded-full text-[11px] uppercase tracking-[0.3em] font-bold hover:bg-white hover:text-black transition-all duration-500 shadow-lg shadow-accent/10">
                     Tisch reservieren
                   </a>
                 </div>

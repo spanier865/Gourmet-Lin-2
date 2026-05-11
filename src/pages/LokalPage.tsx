@@ -15,7 +15,7 @@ const LokalPage = () => {
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1920" 
+            src="https://static.wixstatic.com/media/17c0b7_f20293f099334e74808b8aea4814d831~mv2.jpg" 
             alt="Gourmet Lin Interior" 
             className="w-full h-full object-cover opacity-50"
             referrerPolicy="no-referrer"
@@ -71,11 +71,11 @@ const LokalPage = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="relative aspect-square md:aspect-video lg:aspect-square"
+              className="relative aspect-square"
             >
               <div className="absolute inset-0 bg-accent/20 rounded-3xl translate-x-4 translate-y-4 -z-10"></div>
               <img 
-                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=1000" 
+                src="https://static.wixstatic.com/media/17c0b7_19090f0efc9a45fc995e5e0a65082780~mv2.jpg" 
                 alt="Restaurant Interior" 
                 className="w-full h-full object-cover rounded-3xl shadow-2xl"
                 referrerPolicy="no-referrer"
