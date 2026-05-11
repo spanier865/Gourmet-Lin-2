@@ -175,32 +175,32 @@ const LegolandPage = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
           {[
             {
-              icon: <Baby className="w-8 h-8 text-accent" />,
+              icon: <Baby className="w-8 h-8" />,
               title: "Kinderpreise im Buffet",
               text: "Kinder von 1–11 Jahren zahlen vergünstigte Preise. Kleinkinder bis 2 Jahre essen für nur 2 €."
             },
             {
-              icon: <UtensilsCrossed className="w-8 h-8 text-accent" />,
+              icon: <UtensilsCrossed className="w-8 h-8" />,
               title: "Unbegrenzt essen",
               text: "All-you-can-eat Buffet mit mongolischem Grill, Sushi, Maki und frisch zubereiteten asiatischen Speisen."
             },
             {
-              icon: <Flame className="w-8 h-8 text-accent" />,
+              icon: <Flame className="w-8 h-8" />,
               title: "Show-Cooking Erlebnis",
               text: "Erleben Sie live, wie Ihre Speisen direkt vor Ihren Augen zubereitet werden – ein Erlebnis für die ganze Familie."
             },
             {
-              icon: <Leaf className="w-8 h-8 text-accent" />,
+              icon: <Leaf className="w-8 h-8" />,
               title: "Ohne Glutamat",
               text: "Alle Speisen werden ohne Glutamat zubereitet – frische, hochwertige Zutaten für bewussten Genuss."
             },
             {
-              icon: <Music className="w-8 h-8 text-accent" />,
+              icon: <Music className="w-8 h-8" />,
               title: "Entspannte Atmosphäre",
               text: "Nach einem aufregenden Tag im Legoland: Ruhe, entspannende Musik und ein gemütliches Ambiente erwarten Sie."
             },
             {
-              icon: <MapPin className="w-8 h-8 text-accent" />,
+              icon: <MapPin className="w-8 h-8" />,
               title: "Nur 10 Minuten entfernt",
               text: "Direkt in Günzburg, ca. 10 Minuten vom Legoland. Ideal als letzten Stop vor der Heimfahrt."
             }
@@ -213,7 +213,7 @@ const LegolandPage = () => {
               transition={{ delay: index * 0.1 }}
               className="bg-white/5 border border-white/5 p-10 rounded-[40px] hover:bg-accent/10 hover:border-accent/20 transition-all group"
             >
-              <div className="mb-6 p-4 bg-accent/10 rounded-2xl w-fit group-hover:bg-accent group-hover:text-white transition-all">
+              <div className="mb-6 p-4 bg-accent/10 rounded-2xl w-fit text-accent group-hover:bg-accent group-hover:text-white transition-all">
                 {item.icon}
               </div>
               <h3 className="text-xl font-serif mb-4">{item.title}</h3>
