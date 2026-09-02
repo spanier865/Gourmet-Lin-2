@@ -223,7 +223,7 @@ const Atmosphere = () => {
           initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="aspect-square md:aspect-auto h-auto md:h-[600px] relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group"
+          className="aspect-square relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group"
         >
           <img 
             src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=1200" 
