@@ -60,12 +60,12 @@ const LunchBuffet = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl h-[300px] sm:h-[400px] lg:h-auto w-full lg:flex-1 shrink-0"
+          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl h-[300px] sm:h-[400px] lg:h-auto w-full lg:flex-1 shrink-0 lg:min-h-0 relative"
         >
           <img 
             src="https://static.wixstatic.com/media/17c0b7_2c9e7c0689314efab29a2cfe1c8a696b~mv2.jpg" 
             alt="Mittagsbuffet" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover lg:absolute lg:inset-0"
             referrerPolicy="no-referrer"
           />
         </motion.div>
@@ -74,7 +74,7 @@ const LunchBuffet = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-white/[0.02] border border-white/10 rounded-3xl p-6 sm:p-10 md:p-12 backdrop-blur-sm flex flex-col justify-center w-full lg:flex-1 shrink-0"
+          className="bg-white/[0.02] border border-white/10 rounded-3xl p-6 sm:p-10 md:p-12 backdrop-blur-sm flex flex-col justify-center w-full lg:flex-1 shrink-0 lg:min-h-0"
         >
           <div className="flex items-center gap-4 mb-8">
             <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center shrink-0">
@@ -137,7 +137,7 @@ const EveningBuffet = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-white/[0.02] border border-white/10 rounded-3xl p-6 sm:p-10 md:p-12 backdrop-blur-sm flex flex-col justify-center order-2 lg:order-1 w-full lg:flex-1 shrink-0"
+          className="bg-white/[0.02] border border-white/10 rounded-3xl p-6 sm:p-10 md:p-12 backdrop-blur-sm flex flex-col justify-center order-2 lg:order-1 w-full lg:flex-1 shrink-0 lg:min-h-0"
         >
           <div className="flex items-center gap-4 mb-8">
             <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center shrink-0">
@@ -205,12 +205,12 @@ const EveningBuffet = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl order-1 lg:order-2 h-[300px] sm:h-[400px] lg:h-auto w-full lg:flex-1 shrink-0"
+          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl order-1 lg:order-2 h-[300px] sm:h-[400px] lg:h-auto w-full lg:flex-1 shrink-0 lg:min-h-0 relative"
         >
           <img 
             src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=1200" 
             alt="Erlebnisbuffet" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover lg:absolute lg:inset-0"
             referrerPolicy="no-referrer"
           />
         </motion.div>
