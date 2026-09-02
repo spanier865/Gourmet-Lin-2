@@ -55,12 +55,12 @@ const BuffetHero = () => {
 const LunchBuffet = () => {
   return (
     <section className="py-24 px-6 bg-[#050505] overflow-hidden">
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-stretch">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-stretch">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl aspect-square"
+          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl aspect-square w-full lg:w-1/2"
         >
           <img 
             src="https://static.wixstatic.com/media/17c0b7_2c9e7c0689314efab29a2cfe1c8a696b~mv2.jpg" 
@@ -74,7 +74,7 @@ const LunchBuffet = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-white/[0.02] border border-white/10 rounded-3xl p-6 sm:p-10 md:p-12 backdrop-blur-sm flex flex-col justify-center"
+          className="bg-white/[0.02] border border-white/10 rounded-3xl p-6 sm:p-10 md:p-12 backdrop-blur-sm flex flex-col justify-center w-full lg:w-1/2"
         >
           <div className="flex items-center gap-4 mb-8">
             <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center shrink-0">
@@ -132,12 +132,12 @@ const LunchBuffet = () => {
 const EveningBuffet = () => {
   return (
     <section className="py-24 px-6 bg-[#080808] overflow-hidden">
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-stretch">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-stretch">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-white/[0.02] border border-white/10 rounded-3xl p-6 sm:p-10 md:p-12 backdrop-blur-sm flex flex-col justify-center order-2 lg:order-1"
+          className="bg-white/[0.02] border border-white/10 rounded-3xl p-6 sm:p-10 md:p-12 backdrop-blur-sm flex flex-col justify-center order-2 lg:order-1 w-full lg:w-1/2"
         >
           <div className="flex items-center gap-4 mb-8">
             <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center shrink-0">
@@ -205,7 +205,7 @@ const EveningBuffet = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl order-1 lg:order-2 aspect-square"
+          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl order-1 lg:order-2 aspect-square w-full lg:w-1/2"
         >
           <img 
             src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=1200" 
