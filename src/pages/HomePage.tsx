@@ -17,7 +17,7 @@ const Hero = () => {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1920" 
+          src="https://static.wixstatic.com/media/17c0b7_31a1003de73843deb1764bad82206536~mv2.jpg" 
           alt="Asian Cuisine" 
           className="w-full h-full object-cover opacity-60"
           referrerPolicy="no-referrer"
@@ -108,9 +108,9 @@ const BuffetCards = () => {
     <section id="buffet" className="py-24 px-6 relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://gourmetlin-gz.com/wp-content/uploads/2022/10/Bildschirmfoto-2017-03-07-um-23.57.01.png" 
+          src="https://static.wixstatic.com/media/17c0b7_8bd7afc73cf544579442f1ef9a5f49dc~mv2.jpg" 
           alt="Buffet Background" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover opacity-40"
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-black/80"></div>
@@ -223,7 +223,7 @@ const Atmosphere = () => {
           initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="h-[600px] relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group"
+          className="aspect-square md:aspect-auto h-auto md:h-[600px] relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group"
         >
           <img 
             src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=1200" 

@@ -60,10 +60,10 @@ const LunchBuffet = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl h-[300px] lg:h-auto"
+          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl aspect-square"
         >
           <img 
-            src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&q=80&w=1200" 
+            src="https://static.wixstatic.com/media/17c0b7_2c9e7c0689314efab29a2cfe1c8a696b~mv2.jpg" 
             alt="Mittagsbuffet" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -205,7 +205,7 @@ const EveningBuffet = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl order-1 lg:order-2 h-[300px] lg:h-auto"
+          className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl order-1 lg:order-2 aspect-square"
         >
           <img 
             src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=1200" 
